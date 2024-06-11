@@ -1,6 +1,6 @@
 .navbar ul{
     list-style: none;
-    gap: 10%;
+    gap: 5%;
 }
 
 .nav-item a {
@@ -17,5 +17,14 @@
 }
 
 .navbar-toggler {
-    margin-left: auto;
+    display: block;
 }
+
+.offcanvas {
+    display: none;
+}
+
+.offcanvas.show {
+    display: block;
+}
+
