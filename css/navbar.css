@@ -1,0 +1,21 @@
+.navbar ul{
+    list-style: none;
+    gap: 10%;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: purple;
+}
+
+.collapse.navbar-collapse {
+    margin-right: 120px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
