@@ -1,6 +1,7 @@
 .navbar ul{
+    display: flex;
     list-style: none;
-    gap: 5%;
+    gap: 10%;
 }
 
 .nav-item a {
@@ -16,6 +17,8 @@
     margin-right: 120px;
 }
 
+
+
 .navbar-toggler {
     display: block;
 }
@@ -27,4 +30,28 @@
 .offcanvas.show {
     display: block;
 }
+
+.offcanvas-header {
+    color: white;
+} 
+
+.offcanvas-body {
+    display: flex;
+    text-align: center;
+}
+
+.offcanvas-body li {
+    margin-bottom: 10px;
+}
+
+.offnav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.offnav-item a:hover {
+    color: purple;
+}
+
 
