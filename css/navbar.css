@@ -1,3 +1,7 @@
+.navbar {
+    background-color: #28282B;
+}
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -16,8 +20,6 @@
 .collapse.navbar-collapse {
     margin-right: 120px;
 }
-
-
 
 .navbar-toggler {
     display: block;
