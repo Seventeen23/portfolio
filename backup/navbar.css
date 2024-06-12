@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #2F2020;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: purple;
+}
+
+.collapse.navbar-collapse {
+    margin-right: 120px;
+}
+
+.navbar-toggler {
+    display: block;
+}
+
+.offcanvas {
+    display: none;
+}
+
+.offcanvas.show {
+    display: block;
+}
+
+.offcanvas-header {
+    color: white;
+} 
+
+.offcanvas-body {
+    display: flex;
+    text-align: center;
+}
+
+.offcanvas-body li {
+    margin-bottom: 10px;
+}
+
+.offnav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.offnav-item a:hover {
+    color: purple;
+}
+
+
