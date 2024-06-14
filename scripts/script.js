@@ -8,3 +8,12 @@ fetch('navbar.html')
     .catch()  
 
 
+
+
+// Download CV
+function downloadCV() {
+    var link = document.createElement('a');
+    link.href = "../assets/pdf/Matthew_Tanutan_Resume.pdf";
+    link.download = "Matthew_Tanutan_Resume.pdf";
+    link.dispatchEvent(new MouseEvent('click'));
+}
